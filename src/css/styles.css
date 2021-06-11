@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skip-link {
+  position: absolute;
+  top: -3em;
+  background: #fff;
+  color: #000;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+
+p {
+    background-color: #fff;
+}
