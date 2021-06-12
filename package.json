@@ -1,0 +1,41 @@
+{
+  "name": "@waflstudio/website",
+  "version": "1.0.0",
+  "description": "Contains the code of the waflstudio website",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.9.0",
+    "@11ty/eleventy-navigation": "^0.2.0",
+    "luxon": "^1.27.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@snowpack/plugin-build-script": "^2.1.0",
+    "@snowpack/plugin-postcss": "^1.4.1",
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "@snowpack/plugin-webpack": "^2.3.1",
+    "autoprefixer": "^10.2.6",
+    "btoa": "^1.2.1",
+    "cross-env": "^7.0.3",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.3.2",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.3.1",
+    "snowpack": "^3.5.7",
+    "tailwindcss": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development snowpack dev",
+    "build": "cross-env NODE_ENV=production snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waflstudio/website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waflstudio/website/issues"
+  },
+  "homepage": "https://github.com/waflstudio/website#readme"
+}
