@@ -1,0 +1,28 @@
+- id: skip_to_content
+  translation: zum Inhalt
+- id: nav_main_navigation
+  translation: Hauptmenü
+- id: nav_button_menu
+  translation: Menü
+- id: discuss_show_comments_button
+  translation: Kommentare einblenden
+- id: discuss_comments_disabled
+  translation: Die Kommentarfunktion ist deaktiviert.
+- id: discuss_js_disabled
+  translation: JavaScript muss aktiviert sein um die Kommentarfunktion zu verwenden.
+- id: dark_theme
+  translation: "Dunkles Design:"
+- id: table_of_contents
+  translation: Inhaltsverzeichnis
+- id: publish_date
+  translation: "Veröffentlicht am:"
+- id: last_updated
+  translation: "Aktualisiert am:"
+- id: tags
+  translation: "Tags:"
+- id: aria_label_tags
+  translation: tags
+- id: search_placeholder
+  translation: Titel filtern...
+- id: search_aria_label
+  translation: Titel filtern
